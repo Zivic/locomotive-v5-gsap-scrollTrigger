@@ -7,14 +7,15 @@ import { ScrollTrigger } from "gsap/all";
 export default function Home() {
   const [initialized, setInitialized] = useState(false);
   const scrollRef: any = useRef(null);
+  let locomotiveScroll = useRef(null);
   let scroller: HTMLElement | null = useRef(null);
+
   gsap.registerPlugin(ScrollTrigger);
 
   const onScroll = ({ scroll, limit, velocity, direction, progress }) => {
     scrollRef.current = { scroll, limit, velocity, direction, progress };
     ScrollTrigger.update();
   };
-  let locomotiveScroll = useRef(null);
 
   const initGSAP = () => {
     if (initialized && scroller.current && locomotiveScroll.current) {
