@@ -1,4 +1,20 @@
+https://github.com/Zivic/locomotive-v5-horizontal-vertical-scroll/assets/74061658/ac63863b-c89e-4207-a65b-ed4b9f0eed99
+
+This is an example of how to implement combined horizontal and vertical scrolling using Locomotive Scroll v5 and GSAP ScrollTrigger in Next.js
+It is based on the this codepen, which works for version 4:  https://codepen.io/akapowl/pen/wvJroYy
+I'm sure it can be optimized but since i couldn't find any examples of this, i uploaded it so it could potentially help someone.
+
+Importing the LocomotiveScroll library dynamically is required only in Next.js.
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+
+
+
 
 ## Getting Started
 
